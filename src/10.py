@@ -6,8 +6,8 @@ def isPrime(n):
     return True
 n = 1
 total = 0
-while n < 10001:
-    n += 2
+while n < 2000000:
+    n += 1
     if isPrime(n): total += n
 print total
-#5736394
+#142913828922
